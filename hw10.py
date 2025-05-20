@@ -15,8 +15,6 @@ def input_scores():
     return scores
 
 def get_average(score_list):
-    if not score_list:
-        return 0
     total = 0
     for score in score_list:
         total += score
